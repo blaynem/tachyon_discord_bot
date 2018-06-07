@@ -1,0 +1,11 @@
+{
+  "name": "no-bot#7683",
+  "version": "1.0.0",
+  "description": "Deletes things, nephew.",
+  "main": "bot.js",
+  "author": "blayne.marjama",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "underscore": "^1.9.1"
+  }
+}

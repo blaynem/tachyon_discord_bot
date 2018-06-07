@@ -1,0 +1,5 @@
+#config file
+config.json
+
+#dependencies
+/node_modules
