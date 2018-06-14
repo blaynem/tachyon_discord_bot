@@ -1,5 +1,7 @@
 { 
   "token"  : "fake",
   "prefix" : "",
-  "botId": "FAKE"
+  "botId": "FAKE",
+  "weatherApiKey": "double-fake",
+  "creatorId": "fake creator tag"
 }

@@ -1,11 +1,16 @@
 {
-  "name": "no-bot#7683",
+  "name": "no-bot-7683",
   "version": "1.0.0",
   "description": "Deletes things, nephew.",
   "main": "bot.js",
   "author": "blayne.marjama",
   "dependencies": {
+    "axios": "^0.18.0",
     "discord.js": "^11.3.2",
+    "nodemon": "^1.17.5",
     "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "start": "nodemon bot.js"
   }
 }

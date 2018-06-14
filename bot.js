@@ -5,6 +5,7 @@ const config = require("./config.json");
 const botWavesBack = require('./bot-things/botWavesBack');
 const momReply = require('./bot-things/momReply');
 const questionMark = require('./bot-things/questionMark');
+const weather = require('./bot-things/weather');
 
 client.on("ready", () => {
   // This event will run if the bot starts, and logs in, successfully.
@@ -16,6 +17,7 @@ client.on('message', msg => {
     botWavesBack(msg);
     momReply(msg);
     questionMark(msg, client);
+    weather(msg, client);
   }
 })
 
